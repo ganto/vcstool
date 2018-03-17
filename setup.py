@@ -32,13 +32,6 @@ setup(
 vcstool enables batch commands on multiple different vcs repositories. \
 Currently it supports git, hg, svn and bzr.',
     license='Apache License, Version 2.0',
-    data_files=[
-        ('share/vcstool-completion', [
-            'vcstool-completion/vcs.bash',
-            'vcstool-completion/vcs.tcsh',
-            'vcstool-completion/vcs.zsh'
-        ])
-    ],
     entry_points={
         'console_scripts': [
             'vcs = vcstool.commands.vcs:main',
